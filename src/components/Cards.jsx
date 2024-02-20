@@ -4,22 +4,22 @@ import Card from "./Card";
 function Cards() {
   const [items, setItems] = useState(
     [
-      { id: 1, img: "/img/image1.png", stat: "" },
-      { id: 1, img: "/img/image1.png", stat: "" },
-      { id: 2, img: "/img/image2.png", stat: "" },
-      { id: 2, img: "/img/image2.png", stat: "" },
-      { id: 3, img: "/img/image3.png", stat: "" },
-      { id: 3, img: "/img/image3.png", stat: "" },
-      { id: 4, img: "/img/image4.png", stat: "" },
-      { id: 4, img: "/img/image4.png", stat: "" },
-      { id: 5, img: "/img/image5.png", stat: "" },
-      { id: 5, img: "/img/image5.png", stat: "" },
-      { id: 6, img: "/img/image6.png", stat: "" },
-      { id: 6, img: "/img/image6.png", stat: "" },
-      { id: 7, img: "/img/image7.png", stat: "" },
-      { id: 7, img: "/img/image7.png", stat: "" },
-      { id: 8, img: "/img/image8.png", stat: "" },
-      { id: 8, img: "/img/image8.png", stat: "" },
+      { id: 1, img: "./img/image1.png", stat: "" },
+      { id: 1, img: "./img/image1.png", stat: "" },
+      { id: 2, img: "./img/image2.png", stat: "" },
+      { id: 2, img: "./img/image2.png", stat: "" },
+      { id: 3, img: "./img/image3.png", stat: "" },
+      { id: 3, img: "./img/image3.png", stat: "" },
+      { id: 4, img: "./img/image4.png", stat: "" },
+      { id: 4, img: "./img/image4.png", stat: "" },
+      { id: 5, img: "./img/image5.png", stat: "" },
+      { id: 5, img: "./img/image5.png", stat: "" },
+      { id: 6, img: "./img/image6.png", stat: "" },
+      { id: 6, img: "./img/image6.png", stat: "" },
+      { id: 7, img: "./img/image7.png", stat: "" },
+      { id: 7, img: "./img/image7.png", stat: "" },
+      { id: 8, img: "./img/image8.png", stat: "" },
+      { id: 8, img: "./img/image8.png", stat: "" },
     ].sort(() => Math.random() - 0.5)
   );
 
