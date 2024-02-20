@@ -1,13 +1,13 @@
-// src/App.js
-import React from "react";
-import Board from "./components/Board";
+import Cards from "./components/Cards";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Memory Game</h1>
-      <Board />
+      <div className="title_text">
+        Match the pairs below to open the screens
+      </div>
+      <Cards />
     </div>
   );
 }

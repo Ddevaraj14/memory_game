@@ -1,17 +1,12 @@
-// src/components/Card.js
-import React from "react";
-import "./Card.css";
+const Card = ({ item, id, handleClick }) => {
+  const itemClass = item.stat ? " active " + item.stat : "";
 
-const Card = ({ id, image, isFlipped, handleClick }) => {
   return (
-    <div
-      className={`card ${isFlipped ? "flipped" : ""}`}
-      onClick={() => handleClick(id)}
-    >
+    <div className={"card" + itemClass} onClick={() => handleClick(id)}>
       <div className="card-inner">
         <div className="card-front"></div>
         <div className="card-back">
-          <img src={image} alt="Card" />
+          <img src={item.img} alt="" />
         </div>
       </div>
     </div>
